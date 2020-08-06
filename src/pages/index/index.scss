@@ -1,0 +1,69 @@
+@import '../../style/custom-variables.scss';
+@import "~taro-ui/dist/style/components/tabs.scss";
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/grid.scss";
+.at-tabs{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 0;
+  &__header{
+    background-color: $color-brand;
+  }
+  &__item{
+    background-color: $color-brand;
+    color: rgba(255, 255, 255, 0.7);
+    &--active{
+      color: white
+    }
+    &-underline{
+      display: none;
+    }
+  }
+  &__underline{
+    display: none;
+  }
+  &__body{
+    flex-grow: 1;
+    min-height: 0;
+    flex-basis: 0;
+  }
+  &-pane{
+    &--active{
+      height: 100%;
+    }
+  }
+}
+.index {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #F4F4F4;
+}
+.at-search-bar{
+  background-color: $color-brand;
+  &::after{
+    display: none;
+  }
+}
+.search-recommend{
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    border-radius: 0 0 30px 30px;
+    background-color: $color-brand;
+  }
+  .at-grid{
+    position: relative;
+    background-color: white;
+    margin: 0 30px 20px;
+    border-radius: 20px;
+  }
+}

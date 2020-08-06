@@ -1,0 +1,6 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

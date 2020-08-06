@@ -1,0 +1,41 @@
+@import '../../style/custom-variables.scss';
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.at-search-bar{
+  background-color: $color-brand;
+  &::after{
+    display: none;
+  }
+  &__input{
+    display: flex;
+    align-items: center;
+  }
+}
+.index {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #F4F4F4;
+}
+.search-body{
+  flex-grow: 1;
+  min-height: 0;
+  flex-basis: 0;
+}
+.search-sort{
+  vertical-align: middle;
+  padding: 12px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &--active{
+    color: $color-brand
+  }
+}
+.at-icon-arrow-up{
+  font-size: 26px;
+}

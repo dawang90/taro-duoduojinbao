@@ -1,0 +1,2 @@
+export const OPTSCHANGES = 'OPTSCHANGES'
+export const OPTSGOODSLOAD = 'OPTSGOODSLOAD'
