@@ -10,4 +10,4 @@
 
 | 小程序 | H5 - [访问链接](http://pdd.tbbao.cn) | 
 | :--------: | :--------:| 
-| 请 clone 代码本地运行 | ![H5](https://dawang90.github.io/public/images/h5-qrcode.png) | 
+| 微信小程序![wechat](https://dawang90.github.io/public/images/wechat-qrcode.jpg)<br />qq小程序![qq](https://dawang90.github.io/public/images/qq-qrcode.png) | ![H5](https://dawang90.github.io/public/images/h5-qrcode.png) | 
