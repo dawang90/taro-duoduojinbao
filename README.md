@@ -4,7 +4,7 @@
 
 ## 效果预览
 
-小程序端已支持微信小程序、qq小程序，但无法提供在线版，请 clone 代码本地运行。
+小程序端已支持微信小程序、qq小程序。
 
 本项目调用的蚂蚁星球开放api,apikey申请地址(http://jd.91fyt.com/index.php/v1/member/openapi/index)
 
