@@ -8,6 +8,3 @@
 
 本项目调用的蚂蚁星球开放api,apikey申请地址(http://jd.91fyt.com/index.php/v1/member/openapi/index)
 
-| 小程序 | H5 - [访问链接](http://pdd.tbbao.cn) | 
-| :--------: | :--------:| 
-| 微信小程序<br /><img src="https://dawang90.github.io/public/images/wechat-qrcode.jpg" width="244" height="244" /><br />qq小程序<br/><img src="https://dawang90.github.io/public/images/qq-qrcode.png" width="244" height="244" /> | ![H5](https://dawang90.github.io/public/images/h5-qrcode.png) | 
